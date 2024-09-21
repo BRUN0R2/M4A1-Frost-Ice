@@ -42,10 +42,10 @@ public plugin_precache()
 	rz_set_tdata_float(pWeapon, "LastFrost", get_gametime())
 
 	// Maximum time the victim stays on frost
-	rz_set_tdata_float(pWeapon, "FrostTime", 1.0)
+	rz_set_tdata_float(pWeapon, "FrostTime", 0.6)
 
 	// Time to use frost again
-	rz_set_tdata_float(pWeapon, "FrostAgain", 2.5)
+	rz_set_tdata_float(pWeapon, "FrostAgain", 1.0)
 
 	// Damage that frost will cause
 	rz_set_tdata_float(pWeapon, "FrostDamage", 20.0)
