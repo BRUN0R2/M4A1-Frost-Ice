@@ -48,7 +48,7 @@ public plugin_precache()
 	rz_set_tdata_float(pWeapon, "FrostAgain", 2.5)
 
 	// Damage that frost will cause
-	rz_set_tdata_float(pWeapon, "FrostDamage", 35.0)
+	rz_set_tdata_float(pWeapon, "FrostDamage", 20.0)
 }
 
 public plugin_init() {
